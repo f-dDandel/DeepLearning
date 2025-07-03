@@ -1,0 +1,299 @@
+[
+    {
+        "widths": [
+            128,
+            64,
+            32
+        ],
+        "init_test_acc": 0.1001,
+        "final_test_acc": 0.5184,
+        "time": 60.235860109329224,
+        "params": 404010
+    },
+    {
+        "widths": [
+            128,
+            64,
+            64
+        ],
+        "init_test_acc": 0.104,
+        "final_test_acc": 0.5298,
+        "time": 59.789119482040405,
+        "params": 406410
+    },
+    {
+        "widths": [
+            128,
+            64,
+            128
+        ],
+        "init_test_acc": 0.1091,
+        "final_test_acc": 0.5235,
+        "time": 60.21962022781372,
+        "params": 411210
+    },
+    {
+        "widths": [
+            128,
+            128,
+            32
+        ],
+        "init_test_acc": 0.0929,
+        "final_test_acc": 0.5273,
+        "time": 59.71948862075806,
+        "params": 414314
+    },
+    {
+        "widths": [
+            128,
+            128,
+            64
+        ],
+        "init_test_acc": 0.0999,
+        "final_test_acc": 0.5323,
+        "time": 60.576653242111206,
+        "params": 418762
+    },
+    {
+        "widths": [
+            128,
+            128,
+            128
+        ],
+        "init_test_acc": 0.0997,
+        "final_test_acc": 0.5255,
+        "time": 916.9959983825684,
+        "params": 427658
+    },
+    {
+        "widths": [
+            128,
+            256,
+            32
+        ],
+        "init_test_acc": 0.0961,
+        "final_test_acc": 0.5203,
+        "time": 67.00506401062012,
+        "params": 434922
+    },
+    {
+        "widths": [
+            128,
+            256,
+            64
+        ],
+        "init_test_acc": 0.0971,
+        "final_test_acc": 0.5183,
+        "time": 64.45554375648499,
+        "params": 443466
+    },
+    {
+        "widths": [
+            128,
+            256,
+            128
+        ],
+        "init_test_acc": 0.1065,
+        "final_test_acc": 0.5167,
+        "time": 62.851521015167236,
+        "params": 460554
+    },
+    {
+        "widths": [
+            256,
+            64,
+            32
+        ],
+        "init_test_acc": 0.1,
+        "final_test_acc": 0.5306,
+        "time": 64.28106570243835,
+        "params": 805546
+    },
+    {
+        "widths": [
+            256,
+            64,
+            64
+        ],
+        "init_test_acc": 0.0996,
+        "final_test_acc": 0.5368,
+        "time": 64.0758924484253,
+        "params": 807946
+    },
+    {
+        "widths": [
+            256,
+            64,
+            128
+        ],
+        "init_test_acc": 0.0933,
+        "final_test_acc": 0.5336,
+        "time": 64.3907208442688,
+        "params": 812746
+    },
+    {
+        "widths": [
+            256,
+            128,
+            32
+        ],
+        "init_test_acc": 0.0985,
+        "final_test_acc": 0.5287,
+        "time": 64.80318117141724,
+        "params": 824042
+    },
+    {
+        "widths": [
+            256,
+            128,
+            64
+        ],
+        "init_test_acc": 0.0885,
+        "final_test_acc": 0.5304,
+        "time": 63.92792057991028,
+        "params": 828490
+    },
+    {
+        "widths": [
+            256,
+            128,
+            128
+        ],
+        "init_test_acc": 0.0989,
+        "final_test_acc": 0.528,
+        "time": 64.1359486579895,
+        "params": 837386
+    },
+    {
+        "widths": [
+            256,
+            256,
+            32
+        ],
+        "init_test_acc": 0.1017,
+        "final_test_acc": 0.5399,
+        "time": 64.28656554222107,
+        "params": 861034
+    },
+    {
+        "widths": [
+            256,
+            256,
+            64
+        ],
+        "init_test_acc": 0.1003,
+        "final_test_acc": 0.5368,
+        "time": 64.75156259536743,
+        "params": 869578
+    },
+    {
+        "widths": [
+            256,
+            256,
+            128
+        ],
+        "init_test_acc": 0.1074,
+        "final_test_acc": 0.5398,
+        "time": 64.99837136268616,
+        "params": 886666
+    },
+    {
+        "widths": [
+            512,
+            64,
+            32
+        ],
+        "init_test_acc": 0.0949,
+        "final_test_acc": 0.5336,
+        "time": 80.64590644836426,
+        "params": 1608618
+    },
+    {
+        "widths": [
+            512,
+            64,
+            64
+        ],
+        "init_test_acc": 0.1007,
+        "final_test_acc": 0.5297,
+        "time": 80.05124831199646,
+        "params": 1611018
+    },
+    {
+        "widths": [
+            512,
+            64,
+            128
+        ],
+        "init_test_acc": 0.1105,
+        "final_test_acc": 0.5166,
+        "time": 80.3743667602539,
+        "params": 1615818
+    },
+    {
+        "widths": [
+            512,
+            128,
+            32
+        ],
+        "init_test_acc": 0.1001,
+        "final_test_acc": 0.5317,
+        "time": 269.3624761104584,
+        "params": 1643498
+    },
+    {
+        "widths": [
+            512,
+            128,
+            64
+        ],
+        "init_test_acc": 0.1138,
+        "final_test_acc": 0.5418,
+        "time": 83.67168951034546,
+        "params": 1647946
+    },
+    {
+        "widths": [
+            512,
+            128,
+            128
+        ],
+        "init_test_acc": 0.1333,
+        "final_test_acc": 0.5424,
+        "time": 80.48660326004028,
+        "params": 1656842
+    },
+    {
+        "widths": [
+            512,
+            256,
+            32
+        ],
+        "init_test_acc": 0.0931,
+        "final_test_acc": 0.5408,
+        "time": 77.44378685951233,
+        "params": 1713258
+    },
+    {
+        "widths": [
+            512,
+            256,
+            64
+        ],
+        "init_test_acc": 0.108,
+        "final_test_acc": 0.5407,
+        "time": 78.86075210571289,
+        "params": 1721802
+    },
+    {
+        "widths": [
+            512,
+            256,
+            128
+        ],
+        "init_test_acc": 0.0896,
+        "final_test_acc": 0.5403,
+        "time": 77.53497433662415,
+        "params": 1738890
+    }
+]
