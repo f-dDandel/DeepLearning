@@ -1,0 +1,5 @@
+=== CIFAR-10 Model Comparison ===
+Model           Train Acc  Test Acc   Params     Time (s)
+FC_Deep         0.5730     0.5290     3837066    219.86
+ResidualCNN     0.9521     0.8151     161482     191.45
+ResidualCNN_Regularized 0.9025     0.8233     161482     192.51

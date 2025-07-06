@@ -1,0 +1,5 @@
+Model Comparison Results:
+Model                Train Acc       Test Acc        Params          Time (s)       
+BasicResNet          0.9747          0.7883          4903242         297.59         
+BottleneckResNet     0.8958          0.7482          510602          171.40         
+WideResNet           0.9610          0.8276          9623754         500.03         

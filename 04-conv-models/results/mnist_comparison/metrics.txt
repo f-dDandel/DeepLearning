@@ -1,0 +1,6 @@
+
+=== MNIST Model Comparison ===
+Model           Train Acc  Test Acc   Params     Time (s)  
+FC              0.9845     0.9806     567434     92.01     
+SimpleCNN       0.9956     0.9909     421642     101.41    
+ResidualCNN     0.9963     0.9928     160906     126.06    

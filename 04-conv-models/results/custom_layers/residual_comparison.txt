@@ -1,0 +1,6 @@
+
+=== MNIST Residual Blocks Model Comparison ===
+Model           Train Acc  Test Acc   Params     Time (s)  
+basic           0.9954     0.9892     151306     141.81    
+bottleneck      0.9863     0.9783     12970      135.89    
+wide            0.9958     0.9906     299082     174.85    

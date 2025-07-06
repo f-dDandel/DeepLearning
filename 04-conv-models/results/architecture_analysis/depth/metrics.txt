@@ -1,0 +1,7 @@
+
+=== Depth Experiment Model Comparison ===
+Model           Train Acc  Test Acc   Params     Time (s)  
+Shallow (2)     0.5978     0.5854     20234      171.99    
+Medium (4)      0.8923     0.7487     391946     250.66    
+Deep (6)        0.9840     0.8482     1573130    321.23    
+Residual        0.9786     0.8361     2753290    375.24    

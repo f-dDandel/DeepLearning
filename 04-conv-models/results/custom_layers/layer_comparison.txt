@@ -1,0 +1,5 @@
+
+=== MNIST Custom Layers Model Comparison ===
+Model           Train Acc  Test Acc   Params     Time (s)  
+baseline        0.9934     0.9864     50186      89.43     
+custom          0.9932     0.9881     56713      178.40    
