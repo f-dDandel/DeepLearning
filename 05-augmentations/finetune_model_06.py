@@ -154,7 +154,7 @@ def validate(model, val_loader, criterion, device):
     return val_loss, val_acc
 
 # Подготовка данных
-'''train_loader, val_loader, class_names = prepare_data()
+train_loader, val_loader, class_names = prepare_data()
 print(f"Количество классов: {len(class_names)}")
 print(f"Размер train: {len(train_loader.dataset)}")
 print(f"Размер val (test): {len(val_loader.dataset)}")
@@ -167,6 +167,6 @@ print("Модель подготовлена для дообучения")
 print("Начало обучения...")
 model, history = train_model(model, train_loader, val_loader, class_names, epochs=10)
 
-print("Обучение завершено, результаты в results/finetuning/")'''
+print("Обучение завершено, результаты в results/finetuning/")
 
 

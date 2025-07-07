@@ -47,7 +47,7 @@ def run_experiment(sizes, num_images=100):
         metrics = measure_performance(dataset, pipeline, num_images)
         results[size] = metrics
         
-        print(f"Размер {size}x{size}: {metrics['time']:.2f} сек, {metrics['memory']:.2f} MB")
+        print(f"Размер {size}x{size}: {metrics['time']:.2f} с, {metrics['memory']:.2f} MB")
     
     return results
 
@@ -63,7 +63,7 @@ def plot_results(results, output_dir="results/size_experiment"):
     plt.plot(sizes, times, 'o-')
     plt.title("Зависимость времени обработки от размера изображения")
     plt.xlabel("Размер изображения (пиксели)")
-    plt.ylabel("Время обработки 100 изображений (сек)")
+    plt.ylabel("Время обработки 100 изображений (с)")
     plt.grid(True)
     plt.savefig(os.path.join(output_dir, "time_vs_size.png"))
     plt.close()
@@ -94,7 +94,7 @@ def main():
     # Строим графики
     plot_results(results)
     
-    print("Эксперимент завершен. Результаты сохранены в results/size_experiment/")
+    print("Эксперимент завершен, результаты в results/size_experiment/")
 
 if __name__ == "__main__":
     main()

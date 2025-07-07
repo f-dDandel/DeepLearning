@@ -49,12 +49,12 @@ class RandomBrightnessContrast:
     
     def __call__(self, img):
         if random.random() < self.p:
-            # Изменяем яркость
+            # меняем яркость
             enhancer = ImageEnhance.Brightness(img)
             brightness_factor = random.uniform(*self.brightness_range)
             img = enhancer.enhance(brightness_factor)
             
-            # Изменяем контраст
+            # меняем контраст
             enhancer = ImageEnhance.Contrast(img)
             contrast_factor = random.uniform(*self.contrast_range)
             img = enhancer.enhance(contrast_factor)

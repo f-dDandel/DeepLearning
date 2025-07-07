@@ -62,16 +62,15 @@ def analyze_dataset(dataset_path):
         "mean_size": tuple(np.mean(sizes_array, axis=0)),
         "median_size": tuple(np.median(sizes_array, axis=0)),
         "class_distribution": dict(class_counts),
-        "sizes": sizes_array  # Сохраняем массив размеров
+        "sizes": sizes_array  # сохраняем массив размеров
     }
     
     return stats
 
 def visualize_stats(stats, output_dir="results/dataset_analysis"):
     """Визуализирует статистику датасета"""
-    os.makedirs(output_dir, exist_ok=True)
     
-    # 1. Гистограмма распределения по классам
+    # Гистограмма распределения по классам
     plt.figure(figsize=(12, 6))
     classes = list(stats["class_distribution"].keys())
     counts = list(stats["class_distribution"].values())
@@ -85,7 +84,7 @@ def visualize_stats(stats, output_dir="results/dataset_analysis"):
     plt.savefig(os.path.join(output_dir, "class_distribution.png"))
     plt.close()
     
-    # 2. Распределение размеров изображений
+    #  Распределение размеров изображений
     plt.figure(figsize=(12, 6))
     widths = stats["sizes"][:, 0]
     heights = stats["sizes"][:, 1]
@@ -95,7 +94,6 @@ def visualize_stats(stats, output_dir="results/dataset_analysis"):
     plt.xlabel("Ширина (пиксели)")
     plt.ylabel("Высота (пиксели)")
     
-    # Добавляем маркеры для min, max, mean
     plt.scatter(*stats["min_size"], color='red', label=f'Min: {stats["min_size"][0]}x{stats["min_size"][1]}')
     plt.scatter(*stats["max_size"], color='green', label=f'Max: {stats["max_size"][0]}x{stats["max_size"][1]}')
     plt.scatter(*stats["mean_size"], color='blue', 
@@ -107,7 +105,7 @@ def visualize_stats(stats, output_dir="results/dataset_analysis"):
     plt.savefig(os.path.join(output_dir, "size_distribution.png"))
     plt.close()
     
-    # 3. Сохраняем текстовый отчет
+    #  Сохраняем текстовый отчет
     with open(os.path.join(output_dir, "dataset_report.txt"), 'w', encoding='utf-8') as f:
         f.write("=== Анализ датасета ===\n\n")
         f.write(f"Всего изображений: {stats['total_images']}\n")
